@@ -7,6 +7,8 @@ function App() {
   return (
    <div>
     <Calendario/>
+    <h2>Calendario</h2>
+    <h2>Lista de turnos</h2>
    </div>
   )
 }
