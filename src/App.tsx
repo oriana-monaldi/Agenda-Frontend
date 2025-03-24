@@ -9,7 +9,7 @@ function App() {
     <Calendario/>
     <div className='font-sans'>
     <h2>Calendario</h2>
-    <h2>Lista de turnos</h2>
+    <h2>Turnos</h2>
       
     </div>
    </div>
