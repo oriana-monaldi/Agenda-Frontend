@@ -7,9 +7,9 @@ function App() {
   return (
    <div>
     <Calendario/>
-    <div className='font-sans'>
+    <div className=''>
     <h2>Calendario</h2>
-    <h2>Turnos</h2>
+    <h2>Turnero Claudia</h2>
       
     </div>
    </div>
