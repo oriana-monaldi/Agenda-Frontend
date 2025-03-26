@@ -2,40 +2,54 @@ function AltaTurno() {
   return (
     <div className="bg-red-500 min-h-screen p-4">
       <div className="bg-white p-6 rounded-lg shadow-lg">
-        <h1 className="text-2xl mb-4  text-red-500">
-          Registrar un turno nuevo
-        </h1>
+        <h1 className="text-xl mb-4  text-red-500">Registrar un nuevo turno</h1>
         <div className="mt-2">
-          <p className="font-semibold">Nombre</p>
+          <p className="font-semibold mb-1">Fecha</p>
           <input
-            className="border-2 rounded-lg p-1 w-full focus:outline-none focus:border-red-300"
+            type="date"
+            className="border-2 rounded-lg p-1 w-full border-gray-400 focus:outline-none focus:border-red-300"
+          />
+        </div>
+
+        <div className="mt-2">
+          <p className="font-semibold mb-1">Hora</p>
+          <input
+            type="time"
+            className="border-2 rounded-lg p-1 w-full border-gray-400 focus:outline-none focus:border-red-300"
+          />
+        </div>
+
+        <div className="mt-2">
+          <p className="font-semibold mb-1">Nombre</p>
+          <input
+            className="border-2 rounded-lg p-1 w-full border-gray-400 focus:outline-none focus:border-red-300"
             placeholder="Nombre de la clienta"
           />
         </div>
         <div className="mt-2">
-          <p className="font-semibold">Apellido</p>
+          <p className="font-semibold mb-1">Apellido</p>
           <input
-            className="border-2 rounded-lg p-1 w-full focus:outline-none focus:border-red-300"
+            className="border-2 rounded-lg p-1 w-full border-gray-400 focus:outline-none focus:border-red-300"
             placeholder="Apellido de la clienta"
           />
         </div>
         <div className="mt-2">
-          <p className="font-semibold">Teléfono</p>
+          <p className="font-semibold mb-1">Teléfono</p>
           <input
-            className="border-2 rounded-lg p-1 w-full focus:outline-none focus:border-red-300"
+            className="border-2 rounded-lg  border-gray-400 p-1 w-full focus:outline-none focus:border-red-300"
             placeholder="Teléfono de la clienta"
           />
         </div>
         <div className="mt-2">
-          <p className="font-semibold">Dirección</p>
+          <p className="font-semibold mb-1">Dirección</p>
           <input
-            className="border-2 rounded-lg p-1 w-full focus:outline-none focus:border-red-300"
+            className="border-2 border-gray-400 rounded-lg p-1 w-full focus:outline-none focus:border-red-300"
             placeholder="Dirección de la clienta"
           />
         </div>
 
         <div className="mt-4">
-          <h2 className="font-semibold">Servicios a realizarse</h2>
+          <h2 className="font-semibold mb-1">Servicios a realizarse</h2>
           <label className="block">
             <input type="checkbox" className="mr-2 " /> Corte
           </label>
@@ -54,11 +68,11 @@ function AltaTurno() {
         </div>
 
         <div className="mt-2">
-          <p className="font-semibold">Información Adicional</p>
+          <p className="font-semibold mb-1">Información Adicional</p>
           <textarea
-            className="border-2 p-2 w-full rounded-lg focus:outline-none focus:border-red-300"
+            className="border-2 p-2 w-full border-gray-400 rounded-lg focus:outline-none focus:border-red-300"
             rows={2}
-            placeholder="Detalles adicionales - Aclaraciones"
+            placeholder="Aclaraciones"
           ></textarea>
         </div>
       </div>
