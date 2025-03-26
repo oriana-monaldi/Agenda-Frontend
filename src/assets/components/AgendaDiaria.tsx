@@ -1,7 +1,9 @@
 
 function AgendaDiaria() {
   return (
-    <div>AgendaDiaria</div>
+    <div>
+    <h1>Agenda Diaria</h1>
+    </div>
   )
 }
 

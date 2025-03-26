@@ -1,7 +1,7 @@
 
 function ListaTurnos() {
   return (
-    <div>ListaTurnos</div>
+    <div>Lista de Turnos</div>
   )
 }
 
