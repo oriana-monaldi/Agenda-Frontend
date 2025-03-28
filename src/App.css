@@ -7,9 +7,13 @@ body {
 }
 
 .fondo {
-    background-color: #f3f4f6;
+    background-color: ##FEF2F2;
 }
 
 .alta-turno-container {
     background-color: white;
+}
+
+.color {
+    background-color: #FEF2F2;
 }

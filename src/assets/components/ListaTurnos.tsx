@@ -1,6 +1,7 @@
 import { IoAddCircleOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import Calendario from "./Calendario";
+import VistaDiaria from "./VistaDiaria";
 
 function ListaTurnos() {
   return (
@@ -14,6 +15,7 @@ function ListaTurnos() {
           CARGAR UN NUEVO TURNO
         </Link>
       </div>
+      <VistaDiaria/>
       <Calendario />
     </div>
   );
