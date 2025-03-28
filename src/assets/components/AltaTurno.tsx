@@ -10,7 +10,7 @@ function AltaTurno() {
 
           <div className="space-y-4">
             <div>
-              <p className="mb-1 text-lgfont-medium text-gray-700">Fecha</p>
+              <p className="mb-1 text-lgfont-medium text-gray-700 ">Fecha</p>
               <input
                 type="date"
                 className="w-full rounded-md border-2 border-gray-300 p-2.5 text-sm shadow-sm focus:border-rose-400 focus:outline-none"
@@ -69,7 +69,7 @@ function AltaTurno() {
                     name="servicio"
                     className="mr-2 h-4 w-4 accent-rose-500 ring-0"
                   />{" "}
-                  A domicilio
+                  Servicio a domicilio
                 </label>
                 <label className="flex items-center text-sm text-gray-700">
                   <input
@@ -127,8 +127,8 @@ function AltaTurno() {
             </div>
 
             <div>
-              <p className="mb-1 text-lgfont-medium text-gray-700">
-                Información adicional
+              <p className="mb-1 text-lgfont-medium text-gray-700 mb-2">
+                Información adicional{" "}
               </p>
 
               <textarea
