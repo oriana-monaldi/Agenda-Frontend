@@ -1,8 +1,15 @@
-@import "tailwindcss";
-
-
-
 * {
-    background-color: #fae3e3;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f3f4f6; 
+}
+
+.fondo {
+    background-color: #f3f4f6;
+}
+
+.alta-turno-container {
+    background-color: white;
 }
