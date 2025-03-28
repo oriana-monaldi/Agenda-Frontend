@@ -49,7 +49,7 @@ function AltaTurno() {
         </div>
 
         <div className="mt-4">
-          <h2 className="font-semibold mb-1">Servicios a realizarse</h2>
+          <p className="font-semibold mb-1">Servicios a realizarse</p>
           <label className="block">
             <input type="checkbox" className="mr-2 " /> Corte
           </label>
@@ -64,6 +64,16 @@ function AltaTurno() {
           </label>
           <label className="block">
             <input type="checkbox" className="mr-2" /> Alisado
+          </label>
+        </div>
+
+        <div className="mt-2">
+          <p className="font-semibold mb-1">Tipo de servicio</p>
+          <label className="block">
+            <input type="radio" name="servicio" className="mr-2" /> A domicilio
+          </label>
+          <label className="block">
+            <input type="radio" name="servicio" className="mr-2" /> En el salón
           </label>
         </div>
 

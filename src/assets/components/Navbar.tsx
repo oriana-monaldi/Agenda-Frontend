@@ -4,7 +4,7 @@ function Navbar() {
       <div className="bg-red-100">
         <div>
           <h1 className="text-2xl text-center text-red-400 ">
-          Estilista Claudia Echavarry 
+            Claudia Echavarry Estilista
           </h1>
         </div>
       </div>
