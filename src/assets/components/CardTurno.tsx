@@ -9,7 +9,7 @@ function CardTurno() {
         </div>
         <div className="flex-grow">
           <div className="flex items-center justify-between">
-            <h2 className="text-lg font-semibold">Maria Garcia</h2>
+            <h2 className="text-xl font-semibold">Maria Garcia</h2>
             <span className="text-sm text-gray-500">90 min</span>
           </div>
           <div className="mt-1">
