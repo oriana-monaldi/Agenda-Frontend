@@ -12,7 +12,7 @@ function ListaTurnos() {
           className="text-black px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition-colors"
         >
           <IoAddCircleOutline className="text-xl" color="red" />
-          CARGAR UN NUEVO TURNO
+          NUEVO TURNO
         </Link>
       </div>
       <VistaDiaria/>
