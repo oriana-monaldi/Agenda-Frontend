@@ -1,4 +1,5 @@
 import CardTurno from "./CardTurno";
+import Estado from "./Estado";
 function VistaDiaria() {
   return (
     <div className="color">
@@ -8,6 +9,7 @@ function VistaDiaria() {
             <h1 className="mb-5 text-center text-lg text-rose-500">
               Agenda Lunes, 31 DE MARZO
             </h1>
+            <Estado/>
           <CardTurno/>
           </div>
 

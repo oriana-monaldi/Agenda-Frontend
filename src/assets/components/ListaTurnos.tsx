@@ -17,6 +17,7 @@ function ListaTurnos() {
       </div>
       <VistaDiaria/>
       <Calendario />
+
     </div>
   );
 }
