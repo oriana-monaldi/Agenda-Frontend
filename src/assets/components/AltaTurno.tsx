@@ -83,7 +83,7 @@ function AltaTurno() {
             </div>
 
             <div className="rounded-md bg-white">
-              <p className="mb-1 text-lgfont-medium text-gray-700 mb-2">
+              <p className="mb-1 text-lgfont-medium text-gray-700">
                 Servicios a realizarse
               </p>
 
@@ -127,14 +127,14 @@ function AltaTurno() {
             </div>
 
             <div>
-              <p className="mb-1 text-lgfont-medium text-gray-700 mb-2">
+              <p className="text-lgfont-medium text-gray-700 mb-2">
                 Información adicional{" "}
               </p>
 
               <textarea
                 className="w-full rounded-md border-2 border-gray-300 p-2.5 text-sm shadow-sm focus:border-rose-400 focus:outline-none"
                 rows={3}
-                placeholder="Aclaraciones"
+                placeholder="Informacion adicional"
               ></textarea>
             </div>
             <Button />
