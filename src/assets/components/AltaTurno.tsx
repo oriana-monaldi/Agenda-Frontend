@@ -58,7 +58,7 @@ function AltaTurno() {
             </div>
 
             <div className="rounded-md bg-white">
-              <p className="mb-1 text-lgfont-medium text-gray-700 mb-2">
+              <p className="mb-1 text-lgfont-medium text-gray-700">
                 Tipo de servicio
               </p>
 
